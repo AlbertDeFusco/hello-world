@@ -3,10 +3,13 @@ name: HelloWorld
 description: A sample anaconda-project with a runable command to serve a Panel application
 
 packages:
-  - python=3.7
-  - panel
+- python=3.7
+- panel
 
 commands:
   default:
     unix: panel serve hello.py
-    supports_http_options: True
+    supports_http_options: true
+
+variables:
+  BOKEH_ALLOW_WS_ORIGIN: '*'
