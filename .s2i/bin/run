@@ -1,2 +1,2 @@
-exec anaconda-project run ${CMD:-default} --anaconda-project-port ${PORT:-9096} --anaconda-project-address 0.0.0.0 --anaconda-project-no-browser --anaconda-project-use-xheaders
+exec anaconda-project run ${CMD:-default} --anaconda-project-port 9096 --anaconda-project-address 0.0.0.0 --anaconda-project-no-browser --anaconda-project-use-xheaders
 
